@@ -1,0 +1,45 @@
+:global{
+  .am-input-control input{
+  	 height: 35px;
+  	 background-color: #F2F2F2!important;
+  	 border-radius: 5px;
+  	 text-align: center;
+  	 font-size: 13px!important;
+  	 color: #999999!important;
+  }
+   .am-input-control input::-webkit-input-placeholder{
+  	  text-align: center;
+  	  font-size: 13px;
+   }
+   
+   .options-list{
+     display: flex;
+     flex-wrap: wrap;
+     padding: 0 10px;
+     box-sizing: border-box;
+     .options-item{
+       width: calc(100% / 4);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       margin-top: 17px;
+       img{
+         width: 62px;
+         display: block;
+         height: 62px;
+         border-radius: 50%;
+         border: none;
+       }
+       span{
+         display: block;
+         text-align: center;
+         color: #424651;
+         font-size: 12px;
+       }
+     }
+   }
+   .shop-box{
+  	   margin: 37px 0 10px;
+   }
+}

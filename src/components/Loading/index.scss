@@ -1,0 +1,20 @@
+:global{
+  .loading{
+  	position: fixed;
+  	z-index: 1000000;
+  	left: 0;
+  	top: 0;
+  	background: rgba(255,255,255,.5);
+  	width: 100%;
+  	height: calc(100vh - 48px);
+  	.loadBox{
+  		display: flex;
+  		justify-content: center;
+  		align-items: center;
+  		height: 100%;
+  	}
+  }
+  .fullScreen{
+  	height: 100vh!important;
+  }
+}
