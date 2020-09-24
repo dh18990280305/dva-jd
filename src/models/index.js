@@ -6,7 +6,8 @@ export default {
 
   state: {
     listsGater: {},
-    isFirstLoad: true
+    isFirstLoad: true,
+		type: 1
   },
 
   subscriptions: {

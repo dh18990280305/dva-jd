@@ -12,6 +12,7 @@ export default {
     pageSize: 15,
     firstLoading: true, //首次加载
     moreLoading: true,  //加载更多
+		type: 2
   },
 
   subscriptions: {
