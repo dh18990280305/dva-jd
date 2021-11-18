@@ -2,8 +2,8 @@ import Fly from "flyio/dist/npm/fly"
 let fly = new Fly
 
 const version = {
-    test: 'http://baoming.51xiangzhu.com/jd/api/',
-    office: 'https://zjxt.ixiangzhu.com/jd/api/',
+    test: 'http://test.com/jd/api/',
+    office: 'https://test.com/jd/api/',
 }
 
 let URL = process.env.API_ROOT
